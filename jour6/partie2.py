@@ -76,6 +76,7 @@ def add_year_region_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
     dataframe['region'] = 'some_region'
     return dataframe
 
+#Test de la partie 2
 if __name__ == "__main__":
     filename = "/Users/kyrie/PycharmProjects/jour6/flights.parquet"
     df = pd.read_parquet(filename)
