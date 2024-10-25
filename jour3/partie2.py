@@ -61,7 +61,7 @@ def extract_table(file_path: str) -> list[dict]:
     print(f"Table data extracted: {table_data}")
     return table_data
 
-# Test de la fonction
+# Test de la partie 2
 file_path = 'example.html'
 
 print("Title:", find_title(file_path))
