@@ -32,7 +32,7 @@ def read_parquet_batch(filename: str, batch_size: int) -> pd.DataFrame:
     result_dataframe.reset_index(drop=True, inplace=True)
     return result_dataframe
 
-
+#Test de la partie 1
 if __name__ == "__main__":
     filename = "/Users/kyrie/PycharmProjects/jour6/flights.parquet"
 
