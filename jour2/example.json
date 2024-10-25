@@ -1,0 +1,38 @@
+[
+    {
+        "order_id": 1,
+        "customer": {
+            "firstname": "John",
+            "name": "Doe"
+        },
+        "products": [
+            {
+                "product_id": 1,
+                "name": "Product1",
+                "quantity": 10,
+                "price": 100.0
+            },
+            {
+                "product_id": 2,
+                "name": "Product2",
+                "quantity": 20,
+                "price": 200.0
+            }
+        ]
+    },
+    {
+        "order_id": 2,
+        "customer": {
+            "firstname": "Jane",
+            "name": "Smith"
+        },
+        "products": [
+            {
+                "product_id": 3,
+                "name": "Product3",
+                "quantity": 30,
+                "price": 300.0
+            }
+        ]
+    }
+]
